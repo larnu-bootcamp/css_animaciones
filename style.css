@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/img/astronaut-nebula.jpg");
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-larnU {
+  background-color: #c6ade4;
+  width: 30vw;
+  height: 10vh;
+  border-radius: 5%;
+  color: #1C1C1C;
+  font-size: larger;
+  font-family: 'Mochiy Pop One', sans-serif;
+  transition: 0.4s;
+}
+
+.btn-larnU:hover {
+  width: 40vw;
+  height: 20vh;
+  background-color: #d9acc9;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 5px -5px rgb(233, 74, 233);
+  color: #f3e1ef;
+}
